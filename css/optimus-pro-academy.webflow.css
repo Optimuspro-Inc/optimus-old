@@ -470,7 +470,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 8px;
-  background-color: #689eff;
+  background-image: url('../images/gradients.jpg');
   color: #fff;
   text-decoration: none;
 }
@@ -481,17 +481,15 @@ p {
 
 .subheading {
   margin-bottom: 14px;
-  background-image: url('../images/gradients.jpg');
   background-position: 50% 50%;
   background-size: auto;
-  color: #a4acc5;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .arrow {
@@ -707,9 +705,9 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 24px;
-  background-color: #0059f7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(96%, rgba(22, 32, 68, 0.8)));
-  background-image: linear-gradient(180deg, transparent, rgba(22, 32, 68, 0.8) 96%);
+  background-image: url('../images/gradients.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cta-grid {
